@@ -3,9 +3,7 @@
 #todo en una unica variable. A continuacion,
 #mostar el resultado final en pantalla.
 
-n = int(input("ingreseun numero: "))
-p = (n * 15)/100
-r = n - p
-print(r)
+numero = int(input("ingreseun numero: "))
+print(numero - (numero*15)/100)
 
 
